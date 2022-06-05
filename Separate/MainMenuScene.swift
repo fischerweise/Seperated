@@ -12,8 +12,6 @@ class MainMenuScene: SKScene {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-   
-    
     override init(size: CGSize) {
         super.init(size: size)
         self.backgroundColor = SKColor.black
