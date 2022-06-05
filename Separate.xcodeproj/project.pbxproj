@@ -15,6 +15,7 @@
 		E2B77BA7284D183D0029E795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B77BA5284D183D0029E795 /* Main.storyboard */; };
 		E2B77BA9284D183F0029E795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B77BA8284D183F0029E795 /* Assets.xcassets */; };
 		E2B77BAC284D183F0029E795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B77BAA284D183F0029E795 /* LaunchScreen.storyboard */; };
+		E2B77BB3284D19BE0029E795 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B77BB2284D19BE0029E795 /* GameElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E2B77BA6284D183D0029E795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2B77BA8284D183F0029E795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B77BAB284D183F0029E795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B77BB2284D19BE0029E795 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E2B77B9D284D183D0029E795 /* GameScene.sks */,
 				E2B77B9F284D183D0029E795 /* Actions.sks */,
 				E2B77BA1284D183D0029E795 /* GameScene.swift */,
+				E2B77BB2284D19BE0029E795 /* GameElements.swift */,
 				E2B77BA3284D183D0029E795 /* GameViewController.swift */,
 				E2B77BA5284D183D0029E795 /* Main.storyboard */,
 				E2B77BA8284D183F0029E795 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B77BB3284D19BE0029E795 /* GameElements.swift in Sources */,
 				E2B77BA2284D183D0029E795 /* GameScene.swift in Sources */,
 				E2B77BA4284D183D0029E795 /* GameViewController.swift in Sources */,
 				E2B77B9C284D183D0029E795 /* AppDelegate.swift in Sources */,
