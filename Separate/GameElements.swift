@@ -55,7 +55,7 @@ extension GameScene {
     }
     
     func addObstacle(type: ObstacleType) -> SKSpriteNode {
-        let obstacle = SKSpriteNode(color: UIColor.white, size: CGSize(width: 0, height: 30))
+        let obstacle = SKSpriteNode(color: UIColor.cyan, size: CGSize(width: 0, height: 30))
         obstacle.name = "Obstacle"
         obstacle.physicsBody?.isDynamic = true
         switch type {
