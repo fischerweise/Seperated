@@ -96,7 +96,7 @@ extension GameScene {
             break
         case .oneL:
             let obst = addObstacle(type: .Large)
-            obst.position = CGPoint(x: self.size.width / 2, y: obst.position.y)
+            obst.position = CGPoint(x: self.size.width * 2, y: obst.position.y)
             addMovement(obstacle: obst)
             addChild(obst)
             break
@@ -104,7 +104,7 @@ extension GameScene {
             let obst1 = addObstacle(type: .Small)
             let obst2 = addObstacle(type: .Small)
             obst1.position = CGPoint(x: obst1.size.width + 50, y: obst1.position.y)
-            obst2.position = CGPoint(x: self.size.width - obst2.size.width / 2 - 50, y: obst1.position.y)
+            obst2.position = CGPoint(x: self.size.width - obst2.size.width - 50, y: obst1.position.y)
             addMovement(obstacle: obst1)
             addMovement(obstacle: obst2)
             addChild(obst1)
@@ -113,7 +113,7 @@ extension GameScene {
         case .twoM:
             let obst1 = addObstacle(type: .Medium)
             let obst2 = addObstacle(type: .Medium)
-            obst1.position = CGPoint(x: obst1.size.width + 50, y: obst1.position.y)
+            obst1.position = CGPoint(x: obst1.size.width / 2 + 50, y: obst1.position.y)
             obst2.position = CGPoint(x: self.size.width - obst2.size.width / 2 - 50, y: obst1.position.y)
             addMovement(obstacle: obst1)
             addMovement(obstacle: obst2)
