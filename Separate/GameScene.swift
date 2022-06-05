@@ -88,6 +88,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func didBegin(_ contact: SKPhysicsContact) {
         if contact.bodyA.node?.name == "Player" {
             print("Game Over")
+            showGameOver()
         }
     }
+    
+    func showGameOver() {
+        let transition = SKTransition.fade(withDuration: 0.5)
+        let gameOverScene = GameOverScene(size: self.size)
+        self.view?.presentScene(gameOverScene, transition: transition)
+    }
+
 }
