@@ -24,3 +24,6 @@
 ## iPhone 8 Plus (5.5 Inch)
 
 ## In Xcode, the simulators do not support 3D Touch and Haptic Touch, so I tried the application on my personal phone.
+
+https://user-images.githubusercontent.com/96817224/172209236-cc701323-f232-4733-a8aa-eacde47cfe55.MP4
+
