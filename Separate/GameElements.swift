@@ -4,7 +4,6 @@
 //
 //  Created by Mustafa Pekdemir on 5.06.2022.
 //
-
 import SpriteKit
 
 struct CollisionBitMask {

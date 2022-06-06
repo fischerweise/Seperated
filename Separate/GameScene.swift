@@ -20,7 +20,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             let force = touch.force
             let normalizedForce = force/maximumPossibleForce
             player.position.x = (self.size.width / 2) - normalizedForce * (self.size.width / 2 - 25)
-            player.position.x = (self.size.width / 2) + normalizedForce * (self.size.width / 2 - 25)
+            player2.position.x = (self.size.width / 2) + normalizedForce * (self.size.width / 2 - 25)
         }
     }
     
