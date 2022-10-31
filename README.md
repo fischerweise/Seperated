@@ -1,6 +1,6 @@
 # Seperated-SpriteKitGame-
 
-### *Seperated* is a game that created in *Xcode* with using *SpriteKit* feature. In a simple way, the user has to keep two red boxes appearing on the screen without being caught by the obstacles in front of him/her. I was inspired by the *Dividr* application, which received an achievement award at *WWDC 2018*, where *Apple* organizes every year, introduces various software and makes new announcements, and how I developed this application in 2022.
+### *Seperated* is a game that created in *Xcode* with using *SpriteKit* feature. In a simple way, the user has to keep two red boxes appearing on the screen without being caught by the obstacles in front of him/her. 
 
 ### Used Libraries
 
